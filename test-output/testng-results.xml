@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Launched Application]]>
+    </line>
+    <line>
+      <![CDATA[Accessing file :E:\Aconex\Aconex\TestData\Test_Sheet.xls]]>
+    </line>
+    <line>
+      <![CDATA[Accessing sheet :Test1]]>
+    </line>
+    <line>
+      <![CDATA[Looking for prefix :EmailValidation]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Mail menu]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on blank mail ]]>
+    </line>
+    <line>
+      <![CDATA[selecting mail type.]]>
+    </line>
+    <line>
+      <![CDATA[selected mail type]]>
+    </line>
+    <line>
+      <![CDATA[clicking on global tab]]>
+    </line>
+    <line>
+      <![CDATA[clicked on global tab]]>
+    </line>
+    <line>
+      <![CDATA[Entering on group name]]>
+    </line>
+    <line>
+      <![CDATA[Entering on family name]]>
+    </line>
+    <line>
+      <![CDATA[selecting the recipient]]>
+    </line>
+    <line>
+      <![CDATA[Entering subject name]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Attribute]]>
+    </line>
+    <line>
+      <![CDATA[selecting attribute]]>
+    </line>
+    <line>
+      <![CDATA[clicked on primary add]]>
+    </line>
+    <line>
+      <![CDATA[selecting attribute]]>
+    </line>
+    <line>
+      <![CDATA[clicked on secondary add]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on OK button]]>
+    </line>
+    <line>
+      <![CDATA[Verifying mail details]]>
+    </line>
+    <line>
+      <![CDATA[Getting Recipient's Name..]]>
+    </line>
+    <line>
+      <![CDATA[Verifying mail details]]>
+    </line>
+    <line>
+      <![CDATA[Getting Mail Type..]]>
+    </line>
+    <line>
+      <![CDATA[Verifying mail details]]>
+    </line>
+    <line>
+      <![CDATA[Getting Subject..]]>
+    </line>
+    <line>
+      <![CDATA[Launched Application]]>
+    </line>
+    <line>
+      <![CDATA[Accessing file :E:\Aconex\Aconex\TestData\Test_Sheet.xls]]>
+    </line>
+    <line>
+      <![CDATA[Accessing sheet :Test1]]>
+    </line>
+    <line>
+      <![CDATA[Looking for prefix :DocumentUpload]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Document menu]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Upload Document ]]>
+    </line>
+    <line>
+      <![CDATA[Entering details of document..]]>
+    </line>
+    <line>
+      <![CDATA[Entered Document Number.]]>
+    </line>
+    <line>
+      <![CDATA[Entered Revision Number.]]>
+    </line>
+    <line>
+      <![CDATA[Entered Title.]]>
+    </line>
+    <line>
+      <![CDATA[selected Document type.]]>
+    </line>
+    <line>
+      <![CDATA[selected Document Status.]]>
+    </line>
+    <line>
+      <![CDATA[selected Document Discipline.]]>
+    </line>
+    <line>
+      <![CDATA[entered dates.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Upload button..]]>
+    </line>
+    <line>
+      <![CDATA[Pop up closed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Document menu]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Document Register ]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Search button.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Save Search button.]]>
+    </line>
+    <line>
+      <![CDATA[Entering details of name to search]]>
+    </line>
+    <line>
+      <![CDATA[opened saved name]]>
+    </line>
+    <line>
+      <![CDATA[Entering saved name]]>
+    </line>
+    <line>
+      <![CDATA[verifying document details]]>
+    </line>
+    <line>
+      <![CDATA[Getting Document Name..]]>
+    </line>
+    <line>
+      <![CDATA[verifying document details]]>
+    </line>
+    <line>
+      <![CDATA[Getting Cocument Number..]]>
+    </line>
+  </reporter-output>
+  <suite name="ACONEX PROJECT" duration-ms="145847" started-at="2020-11-09T10:55:46Z" finished-at="2020-11-09T10:58:12Z">
+    <groups>
+    </groups>
+    <test name="Email Validation" duration-ms="67863" started-at="2020-11-09T10:55:46Z" finished-at="2020-11-09T10:56:54Z">
+      <class name="com.aconex.tests.EmailValidationTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.aconex.tests.EmailValidationTest@72d818d1]" name="beforeTest" is-config="true" duration-ms="14850" started-at="2020-11-09T10:55:46Z" finished-at="2020-11-09T10:56:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.aconex.tests.EmailValidationTest@72d818d1]" name="test" duration-ms="51087" started-at="2020-11-09T10:56:01Z" data-provider="EmailValidation" finished-at="2020-11-09T10:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CORRESPONDENCE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CREATEMAIL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Meeting Minutes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kenton]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tillman]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Assignment Exercise 1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Attribute 1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Attribute 2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Administration]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[WP1.01 - Piling]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[PRIMARY]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[SECONDARY]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[To]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[MailType]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Subject]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Mail menu]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on blank mail ]]>
+            </line>
+            <line>
+              <![CDATA[selecting mail type.]]>
+            </line>
+            <line>
+              <![CDATA[selected mail type]]>
+            </line>
+            <line>
+              <![CDATA[clicking on global tab]]>
+            </line>
+            <line>
+              <![CDATA[clicked on global tab]]>
+            </line>
+            <line>
+              <![CDATA[Entering on group name]]>
+            </line>
+            <line>
+              <![CDATA[Entering on family name]]>
+            </line>
+            <line>
+              <![CDATA[selecting the recipient]]>
+            </line>
+            <line>
+              <![CDATA[Entering subject name]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Attribute]]>
+            </line>
+            <line>
+              <![CDATA[selecting attribute]]>
+            </line>
+            <line>
+              <![CDATA[clicked on primary add]]>
+            </line>
+            <line>
+              <![CDATA[selecting attribute]]>
+            </line>
+            <line>
+              <![CDATA[clicked on secondary add]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on OK button]]>
+            </line>
+            <line>
+              <![CDATA[Verifying mail details]]>
+            </line>
+            <line>
+              <![CDATA[Getting Recipient's Name..]]>
+            </line>
+            <line>
+              <![CDATA[Verifying mail details]]>
+            </line>
+            <line>
+              <![CDATA[Getting Mail Type..]]>
+            </line>
+            <line>
+              <![CDATA[Verifying mail details]]>
+            </line>
+            <line>
+              <![CDATA[Getting Subject..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.aconex.tests.EmailValidationTest@72d818d1]" name="teardown" is-config="true" duration-ms="1627" started-at="2020-11-09T10:56:52Z" finished-at="2020-11-09T10:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.aconex.tests.EmailValidationTest -->
+    </test> <!-- Email Validation -->
+    <test name="Document upload" duration-ms="77955" started-at="2020-11-09T10:56:54Z" finished-at="2020-11-09T10:58:12Z">
+      <class name="com.aconex.tests.DocumentUploadTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.aconex.tests.DocumentUploadTest@21213b92]" name="beforeTest" is-config="true" duration-ms="15440" started-at="2020-11-09T10:56:54Z" finished-at="2020-11-09T10:57:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.aconex.tests.DocumentUploadTest@21213b92]" name="test" duration-ms="60595" started-at="2020-11-09T10:57:09Z" data-provider="DocumentUpload" finished-at="2020-11-09T10:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DOC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DOC-NEW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Upload Document - Exercise 2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Drawing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Draft]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Environment]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[11/12/20]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[DOC-SEARCH]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[SaveDoc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Document menu]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Upload Document ]]>
+            </line>
+            <line>
+              <![CDATA[Entering details of document..]]>
+            </line>
+            <line>
+              <![CDATA[Entered Document Number.]]>
+            </line>
+            <line>
+              <![CDATA[Entered Revision Number.]]>
+            </line>
+            <line>
+              <![CDATA[Entered Title.]]>
+            </line>
+            <line>
+              <![CDATA[selected Document type.]]>
+            </line>
+            <line>
+              <![CDATA[selected Document Status.]]>
+            </line>
+            <line>
+              <![CDATA[selected Document Discipline.]]>
+            </line>
+            <line>
+              <![CDATA[entered dates.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Upload button..]]>
+            </line>
+            <line>
+              <![CDATA[Pop up closed]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Document menu]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Document Register ]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Search button.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Save Search button.]]>
+            </line>
+            <line>
+              <![CDATA[Entering details of name to search]]>
+            </line>
+            <line>
+              <![CDATA[opened saved name]]>
+            </line>
+            <line>
+              <![CDATA[Entering saved name]]>
+            </line>
+            <line>
+              <![CDATA[verifying document details]]>
+            </line>
+            <line>
+              <![CDATA[Getting Document Name..]]>
+            </line>
+            <line>
+              <![CDATA[verifying document details]]>
+            </line>
+            <line>
+              <![CDATA[Getting Cocument Number..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.aconex.tests.DocumentUploadTest@21213b92]" name="teardown" is-config="true" duration-ms="1698" started-at="2020-11-09T10:58:10Z" finished-at="2020-11-09T10:58:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.aconex.tests.DocumentUploadTest -->
+    </test> <!-- Document upload -->
+  </suite> <!-- ACONEX PROJECT -->
+</testng-results>

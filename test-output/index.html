@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ACONEX_PROJECT">
+              <span class="suite-name border-passed">ACONEX PROJECT</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ACONEX_PROJECT">
+                    <span>E:\Aconex\Aconex\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ACONEX_PROJECT">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ACONEX_PROJECT">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ACONEX_PROJECT">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ACONEX_PROJECT">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ACONEX_PROJECT">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ACONEX_PROJECT">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ACONEX_PROJECT" class="hide-methods passed suite-ACONEX_PROJECT"> (hide)</a> <!-- hide-methods passed suite-ACONEX_PROJECT -->
+                      <a href="#" panel-name="suite-ACONEX_PROJECT" class="show-methods passed suite-ACONEX_PROJECT"> (show)</a> <!-- show-methods passed suite-ACONEX_PROJECT -->
+                    </span>
+                    <div class="method-list-content passed suite-ACONEX_PROJECT">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ACONEX_PROJECT" title="com.aconex.tests.EmailValidationTest" hash-for-method="test(CORRESPONDENCE, CREATEMAIL, Meeting Minutes, Kenton, Tillman, Assignment Exercise 1, Attribute 1, At...)">test(CORRESPONDENCE, CREATEMAIL, Meeting Minutes, Kenton, Tillman, Assignment Exercise 1, Attribute 1, At...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ACONEX_PROJECT" title="com.aconex.tests.DocumentUploadTest" hash-for-method="test(DOC, DOC-NEW, 12345, Upload Document - Exercise 2, 1, Drawing, Draft, Environment, 11/12/20, DOC-SEA...)">test(DOC, DOC-NEW, 12345, Upload Document - Exercise 2, 1, Drawing, Draft, Environment, 11/12/20, DOC-SEA...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ACONEX_PROJECT -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ACONEX_PROJECT" class="panel ACONEX_PROJECT">
+          <div class="suite-ACONEX_PROJECT-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.aconex.tests.DocumentUploadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(DOC, DOC-NEW, 12345, Upload Document - Exercise 2, 1, Drawing, Draft, Environment, 11/12/20, DOC-SEA...)">
+                  </a> <!-- test(DOC, DOC-NEW, 12345, Upload Document - Exercise 2, 1, Drawing, Draft, Environment, 11/12/20, DOC-SEA...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(DOC, DOC-NEW, 12345, Upload Document - Exercise 2, 1, Drawing, Draft, Environment, 11/12/20, DOC-SEARCH, SaveDoc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ACONEX_PROJECT-class-passed -->
+          <div class="suite-ACONEX_PROJECT-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.aconex.tests.EmailValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CORRESPONDENCE, CREATEMAIL, Meeting Minutes, Kenton, Tillman, Assignment Exercise 1, Attribute 1, At...)">
+                  </a> <!-- test(CORRESPONDENCE, CREATEMAIL, Meeting Minutes, Kenton, Tillman, Assignment Exercise 1, Attribute 1, At...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CORRESPONDENCE, CREATEMAIL, Meeting Minutes, Kenton, Tillman, Assignment Exercise 1, Attribute 1, Attribute 2, Administration, WP1.01 - Piling, PRIMARY, SECONDARY, To, MailType, Subject)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ACONEX_PROJECT-class-passed -->
+        </div> <!-- panel ACONEX_PROJECT -->
+        <div panel-name="test-xml-ACONEX_PROJECT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Aconex\Aconex\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;ACONEX PROJECT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.aconex.Listeners.ExtentListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Email Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.aconex.tests.EmailValidationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Email Validation --&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Document upload&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.aconex.tests.DocumentUploadTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Document upload --&gt;
+&lt;/suite&gt; &lt;!-- ACONEX PROJECT --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ACONEX_PROJECT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ACONEX PROJECT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Email Validation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Document upload (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ACONEX_PROJECT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ACONEX PROJECT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ACONEX_PROJECT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ACONEX PROJECT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ACONEX_PROJECT');
+function tableData_ACONEX_PROJECT() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'com.aconex.tests.DocumentUploadTest')
+data.setCell(0, 3, 60595);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'com.aconex.tests.EmailValidationTest')
+data.setCell(1, 3, 51087);
+window.suiteTableData['ACONEX_PROJECT']= { tableData: data, tableDiv: 'times-div-ACONEX_PROJECT'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-ACONEX_PROJECT">
+              </div> <!-- times-div-ACONEX_PROJECT -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ACONEX_PROJECT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ACONEX PROJECT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(CORRESPONDENCE, CREATEMAIL, Meeting Minutes, Kenton, Tillman, Assignment Exercise 1, Attribute 1, At...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked on Mail menu</span>
+                <span class="reporter-method-output">Clicked on blank mail </span>
+                <span class="reporter-method-output">selecting mail type.</span>
+                <span class="reporter-method-output">selected mail type</span>
+                <span class="reporter-method-output">clicking on global tab</span>
+                <span class="reporter-method-output">clicked on global tab</span>
+                <span class="reporter-method-output">Entering on group name</span>
+                <span class="reporter-method-output">Entering on family name</span>
+                <span class="reporter-method-output">selecting the recipient</span>
+                <span class="reporter-method-output">Entering subject name</span>
+                <span class="reporter-method-output">Clicking on Attribute</span>
+                <span class="reporter-method-output">selecting attribute</span>
+                <span class="reporter-method-output">clicked on primary add</span>
+                <span class="reporter-method-output">selecting attribute</span>
+                <span class="reporter-method-output">clicked on secondary add</span>
+                <span class="reporter-method-output">Clicked on OK button</span>
+                <span class="reporter-method-output">Verifying mail details</span>
+                <span class="reporter-method-output">Getting Recipient's Name..</span>
+                <span class="reporter-method-output">Verifying mail details</span>
+                <span class="reporter-method-output">Getting Mail Type..</span>
+                <span class="reporter-method-output">Verifying mail details</span>
+                <span class="reporter-method-output">Getting Subject..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test(DOC, DOC-NEW, 12345, Upload Document - Exercise 2, 1, Drawing, Draft, Environment, 11/12/20, DOC-SEA...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked on Document menu</span>
+                <span class="reporter-method-output">Clicked on Upload Document </span>
+                <span class="reporter-method-output">Entering details of document..</span>
+                <span class="reporter-method-output">Entered Document Number.</span>
+                <span class="reporter-method-output">Entered Revision Number.</span>
+                <span class="reporter-method-output">Entered Title.</span>
+                <span class="reporter-method-output">selected Document type.</span>
+                <span class="reporter-method-output">selected Document Status.</span>
+                <span class="reporter-method-output">selected Document Discipline.</span>
+                <span class="reporter-method-output">entered dates.</span>
+                <span class="reporter-method-output">Clicked on Upload button..</span>
+                <span class="reporter-method-output">Pop up closed</span>
+                <span class="reporter-method-output">Clicked on Document menu</span>
+                <span class="reporter-method-output">Clicked on Document Register </span>
+                <span class="reporter-method-output">Clicked on Search button.</span>
+                <span class="reporter-method-output">Clicked on Save Search button.</span>
+                <span class="reporter-method-output">Entering details of name to search</span>
+                <span class="reporter-method-output">opened saved name</span>
+                <span class="reporter-method-output">Entering saved name</span>
+                <span class="reporter-method-output">verifying document details</span>
+                <span class="reporter-method-output">Getting Document Name..</span>
+                <span class="reporter-method-output">verifying document details</span>
+                <span class="reporter-method-output">Getting Cocument Number..</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ACONEX_PROJECT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ACONEX_PROJECT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.aconex.tests.EmailValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test(CORRESPONDENCE, CREATEMAIL, Meeting Minutes, Kenton, Tillman, Assignment Exercise 1, Attribute 1, At...)</span>
+                <span class="method-start">15143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">66233 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.aconex.tests.DocumentUploadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">67890 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">test(DOC, DOC-NEW, 12345, Upload Document - Exercise 2, 1, Drawing, Draft, Environment, 11/12/20, DOC-SEA...)</span>
+                <span class="method-start">83550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">144146 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

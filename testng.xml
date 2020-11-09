@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ACONEX PROJECT" thread-count="3" parallel="false">
+
+
+	<listeners>
+	<listener class-name="com.aconex.Listeners.ExtentListener"></listener>
+	
+	</listeners>
+	<test name="Email Validation">
+		<classes>
+			<class
+				name="com.aconex.tests.EmailValidationTest" />
+		</classes>
+	</test>
+		<test name="Document upload">
+		<classes>
+			<class
+				name="com.aconex.tests.DocumentUploadTest" />
+		</classes>
+	</test>
+	
+	</suite>
